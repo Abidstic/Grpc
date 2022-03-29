@@ -11,7 +11,7 @@ public class UserService extends userGrpc.userImplBase {
     private static final Logger logger = Logger.getLogger(UserService.class.getName());
     String url="jdbc:mysql://localhost:3306/grpc";
     String uname="root";
-    String dbpassword="1312752397";
+    String dbpassword="********";
 
     @Override
     public void register(User.regReq request, StreamObserver<User.APIresponse> responseObserver) {
